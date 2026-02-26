@@ -38,7 +38,7 @@ pipeline {
                   -p 80:80 \
                   nginx
 
-                sleep 5
+                sleep 8
 
                 docker cp nginx/default.conf nginx-lb:/etc/nginx/conf.d/default.conf
 
